@@ -9,7 +9,7 @@ import requests
 import json
 
 
-bot = telebot.TeleBot('7985631693:AAG959_b7LgPsEijSeN0ACXt3nyX6TqykcQ')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(commands=['start'])
 def start_message(message):
