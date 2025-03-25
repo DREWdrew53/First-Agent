@@ -22,17 +22,17 @@ from langchain_community.document_loaders import WebBaseLoader
 from qdrant_client import QdrantClient
 from Mytools import *
 
-# os.environ["OPENAI_API_KEY"] = "sk-S9VJwCc8BbHZPcuuuAF82afVsYUVIzjv0gnRCfwnARQ1fFzt"
-os.environ["OPENAI_API_KEY"] = "sk-FfO0CEe94GPThYEruFjppQJsAbomAf9SlnXWvRRlhXlgfr2c"
-os.environ["OPENAI_API_BASE"] = "https://xiaoai.plus/v1"
+# os.environ["OPENAI_API_KEY"] =
+os.environ["OPENAI_API_KEY"] = 
+os.environ["OPENAI_API_BASE"] = 
 
-os.environ["SERPAPI_API_KEY"] = "d8b6ab469dcd5e13b89a1b898f359a659d298a81ce71232e5743cf2424d260cf"
-msseky = "1xEolyM2V8X5yJIKvxVJU2F8dkQ0t3xjPVvlAWcjaCn7t6I8IT2qJQQJ99BCACYeBjFXJ3w3AAAYACOG5FeZ"
+os.environ["SERPAPI_API_KEY"] = 
+msseky = 
 
-os.environ["LANGSMITH_TRACING"] = "true"
-os.environ["LANGSMITH_ENDPOINT"] = "https://api.smith.langchain.com"
-os.environ["LANGSMITH_API_KEY"] = "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"
-os.environ["LANGSMITH_PROJECT"] = "drew1_agent"
+os.environ["LANGSMITH_TRACING"] = 
+os.environ["LANGSMITH_ENDPOINT"] = 
+os.environ["LANGSMITH_API_KEY"] = 
+os.environ["LANGSMITH_PROJECT"] = 
 
 REDIS_URL = os.getenv("REDIS_URL")
 
