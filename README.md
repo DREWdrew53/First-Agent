@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ### API Configuration
 You need to set up the APIs fisrt:
 - OpenAi 
-- Serpapi 
+- SerpAPI 
 - LangSmith 
 - Telegram bot
 
